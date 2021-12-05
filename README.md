@@ -38,7 +38,7 @@ import numpy as np
 import requests
 
 if __name__ == "__main__":
-    data = {'input' : ["что ты знаешь о митингах двадцать первого тридцать первого января", "маруся найди мне пожалуйста невесту"]}
+    data = {'input' : ["что ты знаешь", "найди мне"]}
 
 
     response = requests.get(
